@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiLima</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+    body {
+        background-color: #cecdcb;
+    }
+
+    header {
+        background-image: linear-gradient(to bottom,#9e8463, #674329 );
+        min-height: 150px;
+        margin-top: -35px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    header > h1 {
+        font-weight: normal;
+    }
+
+    header > h1, h3 {
+        text-shadow: 2px 2px 5px #23140a;
+        color: #ffffff;
+        font-family: 'Patua One', Arial, Helvetica, sans-serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    header > h3 {
+        font-family: serif;
+        font-size: 19px;
+        color: white;
+        max-width: 600px;
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    nav > a{
+        padding: 10px;
+        margin-left: 3px;
+        color: #ddb580;
+        text-decoration: none;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+    }
+
+    header > nav > a:hover {
+        background-color: #9e8463;
+        color: #674329;
+        border-radius: 2px;
+    }
+
+    main {
+        min-width: 320px;
+        max-width: 800px;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 0px 10px #00000081;
+        background-color: white;
+    }
+
+    div.video {
+        background-color: #23140a;
+        margin: 0px -10px 30px -10px;
+        padding: 10px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    main > section > article > p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    }
+
+    main > section > article > p > img.mollyjoaquim {
+        width: 50%;
+    }
+
+    main > section > article {
+        padding: auto;
+        margin: auto;
+    }
+
+    main > section > h2 {
+        padding: 10px 10px ;
+    }
+
+    main > section > article > p {
+        font-size: 17px;
+        padding: 5px 5px;
+    }
+
+    main > section > article > p > a {
+        text-decoration: none;
+    }
+
+    main > section > article > p > a:hover {
+        background-color: #674329;
+        color: #9e8463;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    main > section > article > p > a.pança:hover {
+        background-color: #ed7d90;
+        color: black;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    aside {
+        background-color: #000000;
+        margin: -20px -10px -26px -10px;
+        border-radius: 0px 0px 10px 10px;
+        padding-bottom: 10px;
+    }
+
+    aside > p {
+        color: #e8caa2;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    aside > p > a {
+        color: #9e8463;
+        text-decoration: none;
+    }
+
+    aside > p > a:hover {
+        background-color: #23140a;
+        color: #ddb580;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
+
+    aside > p > a.youtube:hover {
+        background-color: red;
+        color: white;
+    }
+
+    aside > p > a.facebook:hover {
+        background-color: rgb(52, 52, 252);
+        color: white;
+    }
+
+    aside > p > a.instagram:hover {
+        background-image: linear-gradient(to right, purple, #f30085, #d8d800, rgb(255, 200, 0));
+        color: white;
+    }
+
+    aside > p > a.linkedin:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    footer {
+        background-color: #23140a;
+        color: #9e8463;
+        text-align: center;
+        font-size: 0.8em;
+    }
+</style>
+<body>
+    <header>
+        <h1>Joaquim</h1>
+        <h3>Um cachorro muito gordo e fedidinho, mas tem o amor de todos dentro de casa</h3>
+        <nav>
+            <a href="molly.html">Molly</a>
+            <a href="pandora.html">Pandora</a>
+            <a href="pança.html">Pança</a>
+        </nav>
+    </header>
+    <main>
+        <section style="padding: 4px 4px;">
+            <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #674329, white); text-shadow: 2px 2px 5px #23140a; color: white; padding: 4px 4px;">História do Joaquim</h2>
+        </section>
+        <section>
+            <article>
+                <p>O rebaixado e roliço cachorro entrou em nossa família por volta de Outubro de 2018. Sua primeira ação como novo membro ao passar da porta e adentrar na residência foi correr atrás da nossa anciã <a href="pança.html" target="_blank" style="text-decoration: none;" class="pança">pança&#x1f63e</a>. Mal sabia ele o problema que havia arranjado para a vida dele, mas isso é assunto para outro dia.</p>
+            </article>
+        </section>
+        <section id="apelidos">
+            <article>
+                <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #674329, white); text-shadow: 2px 2px 5px #23140a; color: white; padding: 4px 4px;">Apelidos do Joaquim</h2>
+                <p>O pequeno barrigudo no decorrer de sua convivência com a família, teve diversos apelidos, sendo eles:</p> <a href="https://pt.wikipedia.org/wiki/P%C3%B3nei" target="_blank"><img src="imagens/ponei-150.webp" alt="ponei-150"></a>
+                <a href="https://www.google.com/search?q=podrid%C3%A3o&sca_esv=557123608&sxsrf=AB5stBilrTHp-lZ9-qRsbmErz-smINdomA%3A1692111591917&ei=55LbZJ_HN8jM1sQP4JaOsAc&ved=0ahUKEwjf1uzy9t6AAxVIppUCHWCLA3YQ4dUDCA8&uact=5&oq=podrid%C3%A3o&gs_lp=Egxnd3Mtd2l6LXNlcnAiCXBvZHJpZMOjbzIKEAAYgAQYRhj5ATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQLhiABDIhEAAYgAQYRhj5ARiXBRiMBRjdBBhGGPQDGPUDGPYD2AEFSJoiUJ8MWL8ecAN4AZABAJgBnAGgAfQIqgEDMC44uAEDyAEA-AEBqAIRwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICEBAuGIoFGMgDGLADGEPYAQLCAgcQIxjqAhgnwgIQEAAYigUY6gIYtAIYQ9gBA8ICEhAAGIoFGOoCGLQCGAoYQ9gBA8ICExAuGIoFGMgDGOoCGLQCGEPYAQLCAgwQIxiKBRgTGIAEGCfCAgQQIxgnwgIHEAAYigUYQ8ICBxAuGIoFGEPCAgcQIxiKBRgnwgILEAAYgAQYsQMYgwHCAgsQLhiDARixAxiKBcICCxAAGIoFGLEDGIMBwgIIEAAYgAQYsQPCAg0QABiABBixAxiDARgKwgIIEAAYgAQYyQPCAggQABiKBRiSA8ICFBAuGIAEGJcFGNwEGN4EGOAE2AEEwgIhEAAYgAQYRhj5ARiXBRiMBRjdBBhGGPQDGPUDGPYD2AEF4gMEGAAgQYgGAZAGEboGBggBEAEYCboGBggCEAEYCLoGBggDEAEYAboGBggEEAEYFLoGBggFEAEYEw&sclient=gws-wiz-serp" target="_blank"><img src="imagens/podridao-200.webp" alt="podridao-200"></a>
+                <a href="https://pt.wikipedia.org/wiki/Capivara" target="_blank"><img src="imagens/capivara-150.png" alt="capivara"></a>
+                <a href="https://pt.wikipedia.org/wiki/Porco" target="_blank"><img src="imagens/porco-150.png" alt=""></a></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Sobre o Joaquim</h2>
+                <p>Joaquim tem um temperamento alto, então ele dificilmente não perde a paciência com todo mundo, no começo foi difícil para o mesmo se aproximar de <a href="molly.html" target="_blank" rel="next">Molly</a>, que implicava muito com o nosso bolota. Felizmente, depois um tempo o conflito se encerrou e viraram amigos inseparáveis. &#x1f436&#x2764&#x1f436</p>
+                <p style="text-align: center;"><img src="imagens/molly&joaquim-300.jpeg" alt="mollyjoaquim" class="mollyjoaquim"></p>
+                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/OWOTVyEqr1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </article>
+        </section>
+        <article>
+            <aside>
+                <h3>Quer saber mais sobre mim?</h3>
+                <p>Me siga nas minhas redes sociais!</p>
+                <p><a href="https://www.youtube.com/@bolinhadelima6170/videos" class="youtube">YouTube</a></p>
+                <p><a href="https://www.facebook.com/guilherme.marques.37669/" class="facebook">Facebook</a></p>
+                <p><a href="https://www.instagram.com/guimardelima/" class="instagram">Instagram</a></p>
+                <p><a href="https://www.linkedin.com/in/guilherme-marques-de-lima-0b5361219/" class="linkedin">Linkedin</a></p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Site criado por Guilherme Marques</p>
+    </footer>
+</body>
+</html>

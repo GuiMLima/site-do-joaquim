@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiLima2.0</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+    body {
+        background-color: #cecdcb;
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, #C48127, #e5a147);
+        min-height: 150px;
+        margin-top: -32px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    header > h1 {
+        font-weight: normal;
+    }
+
+    header > h1, h3 {
+        text-shadow: 2px 2px 5px #23140a;
+        color: #ffffff;
+        font-family: 'Patua One', Arial, Helvetica, sans-serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    header > h3 {
+        font-family: serif;
+        font-size: 19px;
+        color: white;
+        max-width: 600px;
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    nav > a{
+        padding: 10px;
+        margin-left: 3px;
+        color: #87451F;
+        text-decoration: none;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+    }
+
+    header > nav > a:hover {
+        background-color: #87451F;
+        color: #e5a147;
+        border-radius: 2px;
+    }
+
+    main {
+        min-width: 320px;
+        max-width: 800px;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 0px 10px #00000081;
+        background-color: white;
+    }
+
+    main > section > article > p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    }
+
+    main > section > article > p > img.cachorro {
+        width: 50%;
+    }
+
+    main > section > article {
+        padding: auto;
+        margin: auto;
+    }
+
+    main > section > h2 {
+        padding: 10px 10px ;
+    }
+
+    main > section > article > p {
+        font-size: 17px;
+        padding: 5px 5px;
+    }
+
+    main > section > article > p > a {
+        text-decoration: none;
+    }
+
+    main > section > article > p > a:hover {
+        background-color: #C48127;
+        color: #87451F;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    main > section > article > p > a.pança:hover {
+        background-color: #ed7d90;
+        color: black;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    main > section > article > p > a.Joaquim:hover {
+        background-color: #674329;
+        color: #9e8463;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    div.video {
+        background-color: #C48127;
+        margin: 0px -10px 30px -10px;
+        padding: 10px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    footer {
+        background-color: #301300;
+        color: #9e8463;
+        text-align: center;
+        font-size: 0.8em;
+    }
+</style>
+<body>
+    <header>
+        <h1>Molly</h1>
+        <h3>Uma cadela muito amorosa e rechonchuda, independente do quanto ela coma, suas patas nunca engordarão</h3>
+        <nav>
+            <a href="desafio.html">Joaquim</a>
+            <a href="pandora.html">Pandora</a>
+            <a href="pança.html">Pança</a>
+        </nav>
+    </header>
+    <main>
+        <section style="padding: 4px 4px;">
+            <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #e5a147, white); text-shadow: 2px 2px 5px #C48127; color: white; padding: 4px 4px;">História da Molly</h2>
+        </section>
+        <section>
+            <article>
+                <p>Molly está presente em nossa família à mais de 10 anos, veio meses após o nascimento de Eduardo,sua convivência com a <a href="pança.html" target="_blank" style="text-decoration: none;" class="pança">pança&#x1f63e</a> nunca foi um problema, diferente do <a href="desafio.html" target="_blank" style="text-decoration: none;" class="Joaquim">Joaquim</a>, Molly sempre se deu bem com todos.</p>
+            </article>
+        </section>
+        <section id="apelidos">
+            <article>
+                <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #e5a147, white); text-shadow: 2px 2px 5px #C48127; color: white; padding: 4px 4px;">Apelidos da Molly</h2>
+                <p>A "magrela" não teve tantos apelidos mas um animal que se parece muito com ela por conta de suas orelhas é:</p>
+                <p style="text-align: center;"><a href="https://pt.wiktionary.org/wiki/veado" target="_blank"><img src="imagens/veado-500.webp" alt="veado-500"></a></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Sobre a Molly</h2>
+                <p>Apesar de ser uma cadela muito amorosa, uma grande dificuldade que ela tem é lidar com integrantes novos, o que aconteceu com Joaquim e com a <a href="pandora.html" target="_blank">Pandora</a>, não sabemos ao certo, mas acreditamos que seja ciúmes. Mas, com o tempo ela foi aceitando eles e tudo certo.</p>
+                <p style="text-align: center;"><img src="imagens/cachorros-600.jpeg" alt="cachorro" class="cachorro"></p>
+                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/r_Wgu3MDuF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por Guilherme Marques</p>
+    </footer>
+</body>
+</html>

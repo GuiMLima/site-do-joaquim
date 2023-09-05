@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiLima3.0</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+    
+    body {
+        background-color: #cecdcb;
+    }
+    
+    header {
+        background-image: linear-gradient(to bottom, #8b4601, #a75502);
+        min-height: 150px;
+        margin-top: -32px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+    header > h1 {
+        font-weight: normal;
+    }
+    
+    header > h1, h3 {
+        text-shadow: 2px 2px 5px #23140a;
+        color: #ffffff;
+        font-family: 'Patua One', Arial, Helvetica, sans-serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    header > h3 {
+        font-family: serif;
+        font-size: 19px;
+        color: white;
+        max-width: 600px;
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    nav > a{
+        padding: 10px;
+        margin-left: 3px;
+        color: #ef953b;
+        text-decoration: none;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+    }
+    
+    header > nav > a:hover {
+        background-color: #8b4601;
+        color: #ef953b;
+        border-radius: 2px;
+    }
+    
+    main {
+        min-width: 320px;
+        max-width: 800px;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 0px 10px #00000081;
+        background-color: white;
+    }
+    
+    main > section > article > p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    }
+    
+    main > section > article > p.apelidos > a > img {
+        width: 30%;
+    }
+    
+    main > section > article {
+        padding: auto;
+        margin: auto;
+    }
+    
+    main > section > h2 {
+        padding: 10px 10px ;
+    }
+    
+    main > section > article > p {
+        font-size: 17px;
+        padding: 5px 5px;
+    }
+    
+    main > section > article > p > a {
+        text-decoration: none;
+    }
+    
+    main > section > article > p > a:hover {
+        background-color: #C48127;
+        color: #87451F;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+    
+    main > section > article > p > a.pança:hover {
+        background-color: #ed7d90;
+        color: black;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+    
+    main > section > article > p > a.Joaquim:hover {
+        background-color: #674329;
+        color: #9e8463;
+        padding: 2.5px 2.5px;
+        border-radius: 2px;
+    }
+
+    div.video {
+        background-color: #87451F;
+        margin: 0px -10px 30px -10px;
+        padding-top: 10%;
+        padding-right: 35%;
+        padding-left: 35%;
+        padding-bottom: 10%;
+        position: relative;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    footer {
+        background-color: #87451F;
+        color: #9e8463;
+        text-align: center;
+        font-size: 0.8em;
+    }
+</style>
+<body>
+    <header>
+        <h1>Pandora</h1>
+        <h3>A mimada da nossa família, apesar de ser engraçadinha, conquista o coração de todos</h3>
+        <nav>
+            <a href="desafio.html">Joaquim</a>
+            <a href="molly.html">Molly</a>
+            <a href="pança.html">Pança</a>
+        </nav>
+    </header>
+    <main>
+        <section style="padding: 4px 4px;">
+            <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #a75502, white); text-shadow: 2px 2px 5px #a75502; color: white; padding: 4px 4px;">História da Pandora</h2>
+        </section>
+        <section>
+            <article>
+                <p>A caçula da família foi adorada por todos desde o momento no qual pisou dentro de casa, o que provocou uma certa "inveja" na <a href="molly.html" target="_blank" rel="noopener noreferrer">Molly</a>, enquanto <a href="desafio.html" target="_blank" rel="noopener noreferrer">Joaquim</a> não dava a mínima importância, na verdade, ele aceitou até rápido.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 style="font-family: 'Yatra One', Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #a75502, white); text-shadow: 2px 2px 5px #a75502; color: white; padding: 4px 4px;">Apelidos da Pandora</h2>
+                <p>Mesmo sendo uma gracinha, a pequena não escapou dos incontáveis apelidos, sendo eles:</p>
+                <p style="text-align: center;" class="apelidos"><a href="https://pt.wikipedia.org/wiki/Gremlins" target="_blank" rel="noopener noreferrer"><img src="imagens/gremlin-450.webp" alt="gremlin-450"></a>
+                <a href="https://pt.wikipedia.org/wiki/E.T._O_Extraterrestre" target="_blank" rel="noopener noreferrer"><img src="imagens/et-300.png" alt="et-300"></a></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Sobre a Pandora</h2>
+                <p>Mesmo sendo uma cadela muito mimada, pirracenta, barulhenta, ela é a que <a href="pança.html">Pança</a> mais aceitou, não sabemos porque, mas é um fato interessante.</p>
+                <div class="video"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dogzinhos2022/video/7261645878669102342" data-video-id="7261645878669102342" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@dogzinhos2022" href="https://www.tiktok.com/@dogzinhos2022?refer=embed">@dogzinhos2022</a> <p>I’m pretty 🐶</p> <a target="_blank" title="♬ Pretty (Sped Up) - MEYY" href="https://www.tiktok.com/music/Pretty-Sped-Up-7212600172143085570?refer=embed">♬ Pretty (Sped Up) - MEYY</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por Guilherme Marques</p>
+    </footer>
+</body>
+</html>
